@@ -1,0 +1,245 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+body {
+    background-color: #6c7ae08c;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #5b67bd;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+.span {
+    width: 100%;
+}
+
+button:hover,
+button:active,
+button:focus {
+    color: #fff;
+    background-color: #5b67bd !important;
+    border-color: #5b67bd !important;
+}
+
+.shadow {
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.navbar-inverse {
+    background-color: #5b67bd;
+    border-color: #5b67bd;
+    border-radius: 0;
+}
+
+.navbar-header p {
+    color: #fff;
+    font-size: 15px;
+    padding: 13px;
+    margin: 0px;
+    float: left;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.btn {
+    border: 2px solid #5b67bd;
+    color: #5b67bd;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.small {
+    border-radius: 0px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #6c7ae026;
+}
+
+.table>tbody>tr>td {
+    border-top: 1px solid #fff;
+    color: #6a6a6a;
+    text-align: center;
+}
+
+thead tr th {
+    line-height: 2;
+    color: #fff;
+    background-color: #5b67bd;
+    padding: 15px !important;
+    text-align: center;
+}
+
+tbody tr td {
+    padding: 10px 20px !important;
+}
+
+.body-scroll tbody {
+    display: block;
+    min-height: 660px;
+    max-height: 660px;
+    overflow-y: scroll;
+}
+
+.body-scroll2 tbody {
+    display: block;
+    min-height: 300px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.body-scroll thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #fff;
+    background-color: #5b67bd;
+    border: 1px solid #5b67bd;
+}
+
+.nav-tabs>li a:hover {
+    background-color: #6c7ae026;
+    border-bottom: none;
+}
+
+.nav>li>a {
+    padding: 10px 12px;
+}
+
+.nav-tabs {
+    border-bottom: 3px solid #5b67bd;
+}
+
+.tab {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tab-content {
+    min-height: 630px;
+    max-height: 630px;
+    overflow: scroll;
+}
+
+.tab-pane {
+    padding: 10px;
+}
+
+.top {
+    background-color: #2c325b;
+    color: #5b67bd;
+    text-align: right;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.gantt-chart {
+    max-height: 150px;
+    min-height: 150px;
+    overflow: scroll;
+    margin-left: 30px;
+}
+
+.gantt-chart button {
+    width: 90px;
+    margin: 4px;
+    padding: 5px;
+    font-size: 10px;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+
+
+
+}
+
+.title {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 10px 0px;
+    padding: 8px;
+    background: #5b64c3;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.list-group-item {
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.list-group .header {
+    background-color: #5c60ca;
+    border-color: #5c60ca;
+    color: #fff;
+    padding: 6px;
+}
+
+.average {
+    color: #000000;
+    background-color: #e8ecfb;
+    border-color: #e8ecfb;
+}
+
+.computation {
+    max-height: 350px;
+    min-height: 350px;
+    overflow: scroll;
+}
